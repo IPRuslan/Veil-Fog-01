@@ -1,0 +1,43 @@
+
+
+Main menu, command manager
+
+
+C0 - clear terminal
+
+
+C1 - VFScript
+
+
+C2 <path> - start .vfs file
+
+
+C3 - File Manager
+
+
+0A - help menu
+
+
+CA1 - sms on/off, print in main terminal (UART3)
+
+
+com_r or com_n - "enter"
+
+
+
+File Manager
+
+2 - up
+
+8 - down
+
+A - open
+
+B - back to root
+
+
+* - create file ( # - cancel in file name )
+
+
+# - delete file
+

@@ -1,0 +1,67 @@
+cls
+
+txt 2 3 VEILFOG
+rect 1 1 127 14 1
+rect 1 1 128 63 1
+line 1 39 41 63 1
+line 1 40 40 63 1
+line 1 45 37 63 1
+line 1 44 36 63 1
+line 1 49 31 63 1
+line 1 50 30 63 1
+pinM 4 out
+pinM 3 out
+digital 3 1
+beep 4 80 300
+del 10
+keyR 0
+del 50
+# якщо v0 == 49 (символ '1'), то наступна команда виконаЇтьс€
+ifV 0 49
+exit
+digital 3 0
+beep 4 80 300
+digital 3 1
+del 20
+digital 3 0
+beep 4 80 300
+del 20
+digital 3 1
+beep 4 120 200
+del 10
+digital 3 0
+beep 4 95 350
+del 30
+digital 3 1
+beep 4 180 200
+del 10
+digital 3 0
+beep 4 160 200
+del 10
+digital 3 1
+beep 4 180 200
+del 20
+digital 3 0
+beep 4 110 80
+del 5
+digital 3 1
+beep 4 100 80
+del 5
+digital 3 0
+beep 4 70 500
+del 40
+digital 3 1
+beep 4 90 120
+del 10
+digital 3 0
+beep 4 90 120
+del 10
+digital 3 1
+beep 4 90 120
+del 10
+digital 3 0
+beep 4 75 300
+digital 3 1
+del 5
+loop
+#

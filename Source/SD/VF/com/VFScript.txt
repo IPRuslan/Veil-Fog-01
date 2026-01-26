@@ -1,0 +1,109 @@
+VFScript
+
+
+
+VF_OS 
+
+VFScript Guide 2026
+
+variables
+
+
+v0–v9 (numbers)
+
+AVAILABLE PINS FOR VFS
+
+
+16
+
+17
+
+3
+
+4
+
+CONTROL
+
+
+
+exit : Exit to menu
+
+
+loop : File loop
+
+
+goto [pth] : Go to file
+
+
+del [ms/v] : Pause (number or variable)
+
+LOGIC & MATH
+
+calc [d][s][op][v] : Math operations (+, -, *, /)
+
+
+
+ifV [v][val/v] : If v != val, skip next line
+
+
+ifP [p][0/1] : If pin != val, skip next line
+
+
+
+if [</>/=] [v/num] [v/num] : Compare values, if false skip next line
+
+HARDWARE (I/O)
+
+
+
+pinM [p][o/i] : Pin mode (out / in)
+
+
+digital[p][0/1/v] : Digital output
+
+
+anaR [v][p] : Read analog signal to v (0–4095)
+
+
+anaW [p][0-255/v] : Generate analog signal (PWM)
+
+
+beep [p][hz/v][ms/v] : Sound (pin, frequency, duration)
+
+
+keyR [v] : Read character into v (ASCII)
+
+GRAPHICS
+
+
+
+cls : Clear screen
+
+
+
+pix [x][y][c] : Draw pixel
+
+
+line [x1][y1][x2][y2][c] : Draw line
+
+
+rect [x][y][w][h][c] : Draw rectangle
+
+
+
+txt [x][y][text or 'v0-9'] : Draw text or variable value (one word)
+
+UART3 (Serial3)
+
+
+
+u3b [baud] : Set port speed
+
+
+u3w [text/v] : Send text or variable value
+
+
+u3t [x][y] : Display UART buffer on screen
+
+
+u3c : Clear UART buffer

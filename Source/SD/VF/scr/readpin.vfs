@@ -1,0 +1,38 @@
+cls
+
+keyR 0
+
+del 2
+# якщо v0 == 49 (символ '1'), то наступна команда виконаЇтьс€
+if = v0 49
+exit
+
+
+pinM 16 i
+pinM 17 i
+pinM 3 i
+pinM 4 i
+
+
+anaR 0 16
+txt 0 0 16:
+txt 40 0 v0
+
+anaR 1 17
+txt 0 10 17:
+txt 40 10 v1
+
+
+anaR 2 3
+txt 0 20 3:
+txt 40 20 v2
+
+
+anaR 3 4
+txt 0 30 4:
+txt 40 30 v3
+
+
+del 2
+loop
+#

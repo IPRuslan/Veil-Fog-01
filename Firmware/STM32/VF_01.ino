@@ -1,3 +1,7 @@
+//Author: IPRuslan 
+//Project Veilfog 01
+//   28.01.2026
+
 #include <SPI.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -1104,3 +1108,4 @@ void fileManager() {
 
     mainmenu();
 } // fileManager
+
